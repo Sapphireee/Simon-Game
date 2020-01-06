@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #ffdcf7
+}
+
+#level-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 7rem;
+  margin:  0.5%;
+  color: #5d5b6a;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 50%;
+  border-color: #5d5b6a;
+}
+
+.game-over {
+  background-color: #fa163f;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ff0060;
+}
+
+.green {
+  background-color: #90ff00;
+}
+
+.blue {
+  background-color: #18d8f0;
+}
+
+.yellow {
+  background-color: #f0ff00;
+}
+
+.pressed {
+  box-shadow: 0 0 40px white;
+  background-color: #6c7b95;
+}
